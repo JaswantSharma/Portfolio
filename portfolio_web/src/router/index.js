@@ -1,18 +1,14 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router'
-import App from '../App.vue'
-import Details from '../components/Details.vue'
-import Snowfall from '../components/Snowfall.vue'
+import { createRouter , createWebHistory } from "vue-router";
+import Snowfall from "@/components/Snowfall.vue";
+import Details from "@/components/Details.vue";
 
 
-Vue.use(VueRouter)
 
-
-  routes: [
+  const routes = [
     {
       path: '/',
-      name: 'App',
-      component: App
+      name: 'Snowfall',
+      component: Snowfall
     },
     {
       path: '/details',
@@ -22,9 +18,8 @@ Vue.use(VueRouter)
     
   ]
 
-  const router = new VueRouter({
-    mode: 'history', // Use HTML5 history mode for cleaner URLs (optional)
-    base: process.env.BASE_URL,
+  const router = createRouter({
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes
   });
   

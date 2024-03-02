@@ -1,12 +1,14 @@
 @import './base.css';
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+} */
+.wrapper{
+  
 }
-
 a,
 .green {
   text-decoration: none;
@@ -24,7 +26,7 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    /* place-items: center; */
   }
 
   #app {

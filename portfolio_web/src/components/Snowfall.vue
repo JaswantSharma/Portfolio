@@ -7,7 +7,7 @@
       <img src="../assets/image.jpg" alt="Your Image" class="picture">
       
     </div>
-    <a href="./Details" class="redirect-link">Click here to redirect</a>
+    <a href="./Details" class="redirect-link">Explore more about me</a>
     </div>
     
     
@@ -90,6 +90,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
 }
   .frame {
   width: 200px; /* Adjust the size of the frame */
@@ -97,6 +102,7 @@
   border-radius: 50%; /* Make it circular */
   overflow: hidden;
   position: relative;
+  
 }
 
 .picture {
