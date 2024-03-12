@@ -11,7 +11,7 @@ import Details from "@/components/Details.vue";
       component: Snowfall
     },
     {
-      path: '/details',
+      path: '/detail',
       name: 'Details',
       component: Details
     }

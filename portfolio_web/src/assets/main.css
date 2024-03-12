@@ -6,9 +6,13 @@
   padding: 2rem;
   font-weight: normal;
 } */
-.wrapper{
-  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 a,
 .green {
   text-decoration: none;
@@ -25,13 +29,14 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    height: 100vh;
+    width: 100vw;
     /* place-items: center; */
   }
 
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    
   }
 }

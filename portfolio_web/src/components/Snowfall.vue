@@ -4,10 +4,10 @@
     </div>
     <div class="frame-container">
       <div class="frame">
-      <img src="../assets/image.jpg" alt="Your Image" class="picture">
+      <img src="../assets/image_bg.jpg" alt="Your Image" class="picture">
       
     </div>
-    <a href="./Details" class="redirect-link">Explore more about me</a>
+    <a href="./detail" class="redirect-link">Explore more about me</a>
     </div>
     
     
